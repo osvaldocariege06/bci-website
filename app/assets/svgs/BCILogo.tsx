@@ -1,4 +1,6 @@
-const BCILogo = (props: any) => (
+import { SVGProps } from "react";
+
+const BCILogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={105}
     height={40}
